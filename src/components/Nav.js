@@ -58,7 +58,7 @@ class Nav extends Component {
                         </li>
                     )}
                     <li>
-                        <a data-target="slide-out" className="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <button data-target="slide-out" className="sidenav-trigger btn"><i className="material-icons">menu</i></button>
                     </li>
                 </ul>
 

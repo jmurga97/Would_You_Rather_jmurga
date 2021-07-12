@@ -33,7 +33,7 @@ class QuestionResults extends Component {
                                 <div>
                                     <progress max='100' value={optionOnePercentage}>{optionOnePercentage}</progress>
                                 </div>
-                                <p className='black-text'>{`${optionOneVotes} of ${registeredUsers} votes`}</p>
+                                <p className='black-text'>{`${optionOneVotes} of ${registeredUsers} votes (${optionOnePercentage} voted)`}</p>
                             </div>
 
                             <div className='card-panel'

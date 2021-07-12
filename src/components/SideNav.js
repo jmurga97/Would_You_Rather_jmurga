@@ -6,14 +6,14 @@ import { MdHome,MdQuestionAnswer,MdStars} from "react-icons/md";
 export default function SideNav(props) {
     return (
 
-            <ul id="slide-out" class="sidenav">
+            <ul id="slide-out" className="sidenav">
                     <li>
-                        <div class="user-view">
-                        <div class="background">
+                        <div className="user-view">
+                        <div className="background">
                             <img alt='background sidenav' src={image}/>
                         </div>
-                        <img class="circle" alt={`avatar of ${props.name}`} src={props.avatar}/>
-                        <span class="white-text name">{props.name}</span>
+                        <img className="circle" alt={`avatar of ${props.name}`} src={props.avatar}/>
+                        <span className="white-text name">{props.name}</span>
                         {
                             props.authedUser && (
                                 <div>

@@ -32,8 +32,8 @@ class Login extends Component {
                     <GiCube className='login-logo'/>
                     <h4>Sign In</h4>
                     <div className='input-field'>
-                        <select onChange={this.handleChange}>
-                            <option value="" disabled defaultValue>Choose your option</option>
+                        <select value='Choose your option' onChange={this.handleChange}>
+                            <option value="Choose your option" disabled>Choose your option</option>
                             {usersIdentity.map((user,index) => (
                                 <option key={index} value={user.userId}>
                                     {user.userId}
